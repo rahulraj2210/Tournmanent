@@ -1,16 +1,16 @@
-import Enums.ResultDeclarationMethods;
-import Constants.TournamentNames;
-import Factories.ResultDeclarationFactory;
-import Factories.TournamentFactory;
-import Repositories.CarRepository;
-import Repositories.Impl.CarCsvRepositoryImpl;
-import Repositories.Impl.PartCsvRepositoryImpl;
-import Repositories.Impl.TeamCsvRepository;
-import Repositories.PartRepository;
-import Repositories.TeamRepository;
-import Responses.Winner;
-import Services.ResultDeclarationService;
-import Services.TournamentService;
+import enums.ResultDeclarationMethods;
+import constants.TournamentNames;
+import factories.ResultDeclarationFactory;
+import factories.TournamentFactory;
+import repositories.CarRepository;
+import repositories.impl.CarCsvRepositoryImpl;
+import repositories.impl.PartCsvRepositoryImpl;
+import repositories.impl.TeamCsvRepository;
+import repositories.PartRepository;
+import repositories.TeamRepository;
+import responses.Winner;
+import services.ResultDeclarationService;
+import services.TournamentService;
 
 
 public class Main {
